@@ -60,9 +60,19 @@ Console.WriteLine("La resta de los numero es: " + res);
 Console.WriteLine("La multiplicación de los numero es: " + prod);
 Console.WriteLine("La divicion entera de los numero es: " + divE);
 Console.WriteLine("La Divicion real de los numero es: " + divR);
-Console.WriteLine("La modulo de los numero es: " + mod);/*
+Console.WriteLine("La modulo de los numero es: " + mod);*/
 
-    //LECTURA DE DATOS 
+//LECTURA DE DATOS 
 // Leer 2 numeros y imprimir si es positivo o negativo 
-
+int a;
+Console.WriteLine("Ingresa el numero a leer ");
+a= int.Parse(Console.ReadLine());
+if (a > 0) 
+{
+    Console.WriteLine("El numero" + a, "es positivo ");
+}
+else if (a > 0)
+{
+    Console.WriteLine("El numero" + a, "es negativo ");
+}
 
